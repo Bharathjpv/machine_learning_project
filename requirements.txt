@@ -1,0 +1,8 @@
+flask
+numpy
+scikit-learn
+pandas
+# mysql-connector-python
+evidently
+PyYAML
+-e .
