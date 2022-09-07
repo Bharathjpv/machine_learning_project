@@ -1,4 +1,3 @@
-import imp
 import os
 import sys
 
@@ -18,6 +17,7 @@ class HousingException(Exception):
         Description: This function gives the Error message occured in the code
         
         return: It return the error message string with line and file
+        error_detail.exc_info()
         """
         _, _, exc_tb = error_detail.exc_info()
 
